@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">                                                    
+<head>
+	<meta charset="UTF-8">
+	<title> Historia</title>
+	<link rel="stylesheet" href="historia.css">
+	
+</head>
+<body>
+ 	<header>
+    	<h1 id="titulo">Benvingut a la teva aventura, llegeix i disfruta!</h1>
+    </header>
+	<main id="container">
+		<div id="nav">
+			<ul>
+				<li> <a href="javascript:inicio()"> Inici </a></li>
+						
+			</ul>
+		</div>
+
+		<section class="todo">
+			<header class=boton_jugador>
+				<div id="pag"> page</div>
+				<button onclick="open_modal()">Cambiar Jugador</button>
+			</header>
+
+			<section class="jugador">
+
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+						<p><h2>Entre el nombre del Jugador</h2></p>
+						<br>
+						<span  class="close">&times;</span>
+
+						<form name="form" action="" method="get">
+							<input type="text" name="jugador" id="jugador">
+						</form>
+						<br>
+						<br>
+						<button onclick="entra_jugador()">Aceptar</button>
+					</div>
+				</div>
+
+			</section>
+					
+			<section class="text">Text</section>
+			
+			<footer id="footer1">
+				<button onclick="ferSi()">Sí</button>
+				<button onclick="ferNo()">No</button>
+			</footer>
+			
+			<div id="footer2">
+				<p> Powered by...  Jordi </p>
+				<div id="jug">
+					<p> jugador</p>
+				</div>
+			</div>
+				
+			
+		</section>	
+			
+	</main>
+		<script src="historia.js"></script>
+</body>
+</html>

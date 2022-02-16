@@ -1,0 +1,181 @@
+
+/******** Estilos generales **********/
+body{
+	margin: 0;
+	font-family: Helvetica,Arial,"Times New Roman",Sans-Serif;
+	color: black; 
+	font-size:14px;
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size:cover;
+
+
+}
+/******Título***********/
+#titulo{
+	position: relative;
+	margin: 0px auto;
+	width: 800px;
+	box-shadow: 0px 0px 8px #444;
+	background: white;
+	text-align: center;
+}
+/******Contenedor***********/
+#container{
+	position: relative;
+	margin: 0px auto;
+	width: 800px;
+	box-shadow: 0px 0px 8px #444;
+	background: white;
+}
+
+/****** Menu ***************/
+ #nav{
+	border:0px;
+ }
+ #nav ul{
+ 	list-style: none;
+ 	background-image: linear-gradient(to bottom, #000, #334);
+ 	padding: 10px 20px;
+ 	margin:0px;
+ 	border:0px;
+ 	text-align: center;
+ }
+
+ #nav ul li{
+ 	display: inline;
+ 	padding: 15px 0px 15px 0px;
+ 	margin:0px 30px;
+ 	border:0px;
+ }
+
+ #nav ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	font-size: 12px;
+ 	transition: all 2s;
+ }
+ #nav ul li a:visited{
+ 	color: #AAA;
+	font-weight:bold;
+	
+ }
+ #nav ul li a:hover{
+ 	color: white;
+ 	text-shadow: 0px 0px 4px white;
+	font-weight:bold;
+	font-size:40px;
+ }
+ #nav ul li a:active{
+ 	color: white;
+ }
+
+/************Cabecera******************/
+#header{
+	padding: 20px 30px;
+	
+}
+ #header h1{
+ 
+ }
+ #header p{
+ 	padding-left: 50px;
+ 
+ }
+ 
+
+/************Jugador Pagina*****************************/
+ .boton_jugador{
+	display:flex;
+	justify-content: space-between;
+
+ }
+
+/************main*****************************/
+#main h3{
+	color: #476BB2;
+	text-transform: uppercase;
+	
+}
+/************Grupo tratamiento modal*****************************/
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 30%;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+/************todo*****************************/
+.todo{
+	visibility: hidden;
+	
+}
+
+
+/************Texto*****************************/
+.text {
+	background-color: coral;
+	padding: 2em;
+	margin-bottom: 2em;
+	font-size: x-large;
+	text-align: center;
+}
+
+
+
+/********pie de página***************************/
+#footer1{
+	display:flex;
+	justify-content: space-around;	
+}
+
+#footer2{
+	clear: both;
+	padding: 20px;
+	display:flex;
+	justify-content: space-between;
+}
+
+#footer2 p{
+	font-variant: small-caps;
+	letter-spacing: 8px;
+}
+
+#footer2 span{
+	font-variant: none;
+	letter-spacing: normal;
+
+}
